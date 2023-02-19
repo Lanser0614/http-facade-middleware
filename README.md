@@ -1,6 +1,6 @@
 # http-facade-middleware
 
-# With GuzzleHttp\Client
+# With GuzzleHttp Client
 
 $stack = HandlerStack::create(new CurlHandler());
 
