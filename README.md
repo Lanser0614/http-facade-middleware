@@ -1,5 +1,9 @@
 # http-facade-middleware
 
+# INSTALL
+
+composer require lanser/http-facade-middleware:dev-main
+
 # With GuzzleHttp Client
 
 $stack = HandlerStack::create(new CurlHandler());
