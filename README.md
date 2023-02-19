@@ -2,13 +2,16 @@
 
 # With GuzzleHttp\Client
 
-`$stack = HandlerStack::create(new CurlHandler());
+$stack = HandlerStack::create(new CurlHandler());
+
 $stack->push(new ExampleGuzzleMiddleware());
+
 $client = new Client([
 'base_uri' => 'https://dummyjson.com',
 'handler' => $stack,
 ]);
-$res = $client->get("/products/1");`
+
+$res = $client->get("/products/1");
 
 # With Laravel Http Facade
 
