@@ -1,0 +1,24 @@
+{
+  "name": "lanser/http-facade-middleware",
+  "description": "middleware for Laravel http facade Request and Response options and parameters",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.5",
+    "ext-intl" : "*",
+    "nesbot/carbon": "^2.66",
+    "ext-http": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lanser\\HttpFacadeMiddleware\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "lanser",
+      "email": "letenantdoniyor@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
